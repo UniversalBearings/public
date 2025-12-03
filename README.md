@@ -29,6 +29,12 @@ For detailed instructions, see this [Let's Encrypt wildcard certificate tutorial
 
 For GitHub Pages custom domain configuration, see the [official documentation](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site).
 
+This repository has the bare minimum files for a placeholder website:
+- `404.html` a simple page with a friendly message for internal visitors and accidental external visitors, this will be served for every page visited
+- `index.html` a copy of the 404.html page, required because otherwise github.io will serve the README.md file instead
+- `CNAME` file to point to the GitHub Pages domain
+- `README.md` as a guide for setup
+
 ## Why This Matters
 
 - **Professional appearance**: No more security warnings that confuse users
